@@ -42,7 +42,7 @@ def plot_residuos(y_true, y_pred):
 
 
 def plot_comparar_metricas_modelos(df_resultados):
-    fig, axs = plt.subplots(2, 2, figsize=(8, 8), sharex=True)
+    fig, axs = plt.subplots(2, 2, figsize=(12, 8), sharex=True)
 
     comparar_metricas = [
         "time_seconds",
