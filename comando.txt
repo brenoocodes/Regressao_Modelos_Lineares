@@ -1,0 +1,1 @@
+pip install pandas seaborn plotly matplotlib scikit-learn streamlit streamlit[charts]
